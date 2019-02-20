@@ -1,0 +1,12 @@
+diff -ruaN a/src/mpsse.h b/src/mpsse.h
+--- a/src/mpsse.h	2013-04-19 10:12:59.000000000 +0800
++++ b/src/mpsse.h	2017-08-14 11:12:34.163722702 +0800
+@@ -3,7 +3,7 @@
+ 
+ #include <stdint.h>
+ 
+-#if LIBFTDI1 == 1
++#if 1
+ #include <libftdi1/ftdi.h>
+ #else
+ #include <ftdi.h>
