@@ -334,7 +334,7 @@ diff -ruaN a/util_lbt_test/Makefile b/util_lbt_test/Makefile
  ### Linking options
  
 -LIBS := -lloragw -lrt -lm
-+LIBS := -lloragw -li2ceeprom -lmpsse -lrt -lm
++LIBS := -lloragw -lmpsse -lrt -lm
  
  ### General build targets
  
@@ -346,7 +346,7 @@ diff -ruaN a/util_pkt_logger/Makefile b/util_pkt_logger/Makefile
  ### Linking options
  
 -LIBS := -lloragw -lrt -lm
-+LIBS := -lloragw -li2ceeprom -lmpsse -lrt -lm
++LIBS := -lloragw -lmpsse -lrt -lm
  
  ### General build targets
  
@@ -358,7 +358,7 @@ diff -ruaN a/util_spectral_scan/Makefile b/util_spectral_scan/Makefile
  ### Linking options
  
 -LIBS := -lloragw -lrt
-+LIBS := -lloragw -li2ceeprom -lmpsse -lrt
++LIBS := -lloragw -lmpsse -lrt
  
  ### General build targets
  
@@ -370,7 +370,7 @@ diff -ruaN a/util_spi_stress/Makefile b/util_spi_stress/Makefile
  ### Linking options
  
 -LIBS := -lloragw -lrt -lm
-+LIBS := -lloragw -li2ceeprom -lmpsse -lrt -lm
++LIBS := -lloragw -lmpsse -lrt -lm
  
  ### General build targets
  
@@ -382,7 +382,7 @@ diff -ruaN a/util_tx_continuous/Makefile b/util_tx_continuous/Makefile
  ### Linking options
  
 -LIBS := -lloragw -lrt -lm
-+LIBS := -lloragw -li2ceeprom -lmpsse -lrt -lm
++LIBS := -lloragw -lmpsse -lrt -lm
  
  ### General build targets
  
@@ -394,7 +394,7 @@ diff -ruaN a/util_tx_test/Makefile b/util_tx_test/Makefile
  ### Linking options
  
 -LIBS := -lloragw -lrt -lm
-+LIBS := -lloragw -li2ceeprom -lmpsse -lrt -lm
++LIBS := -lloragw -lmpsse -lrt -lm
  
  ### General build targets
  
